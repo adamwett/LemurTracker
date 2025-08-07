@@ -23,6 +23,10 @@ const config: ForgeConfig = {
     new WebpackPlugin({
       mainConfig,
       devContentSecurityPolicy: "connect-src 'self' * 'unsafe-eval'",
+      devServer: {
+        hot: true,
+        liveReload: true,
+      },
       renderer: {
         config: rendererConfig,
         entryPoints: [

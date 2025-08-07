@@ -9,6 +9,7 @@ rules.push({
 });
 
 export const rendererConfig: Configuration = {
+  mode: 'development', // Explicitly set development mode
   module: {
     rules,
   },

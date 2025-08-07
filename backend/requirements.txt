@@ -1,0 +1,15 @@
+pytest
+pytest-cov
+pytest-mock
+pytest-asyncio
+pytest-timeout
+pytest-flask
+opencv-python
+sqlalchemy>=2.0.0
+flask
+flask-cors
+flask-socketio
+aiortc
+av
+numpy
+ffmpeg-python

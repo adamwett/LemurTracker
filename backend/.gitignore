@@ -1,0 +1,25 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Database files
+lemur_tracking.db
+
+# Video output directory
+processed_videos/
+
+stitched_videos/
+
+
+
+# Video files and assets
+assets/
+
+hls/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
